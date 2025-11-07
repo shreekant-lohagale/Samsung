@@ -33,15 +33,15 @@ l1.remove(10)
 print(l1)
 
 string = "beutiful"
-if 'a' in string:
+if 'a' and 'A' in string:
     print("t is present in the string")
-elif 'e' in string:
+elif 'e' and 'E' in string:
     print("e is present in the string")
-elif 'i' in string:
+elif 'i' and 'I' in string:
     print("i is present in the string")
-elif 'o' in string:
+elif 'o' and 'O' in string:
     print("o is present in the string")
-elif 'u' in string:
+elif 'u' and 'U' in string:
     print("u is present in the string")
 else:
     print("no vowel is present in the string")
