@@ -31,3 +31,17 @@ print(l3)
 print(l1)
 l1.remove(10)
 print(l1)
+
+string = "beutiful"
+if 'a' in string:
+    print("t is present in the string")
+elif 'e' in string:
+    print("e is present in the string")
+elif 'i' in string:
+    print("i is present in the string")
+elif 'o' in string:
+    print("o is present in the string")
+elif 'u' in string:
+    print("u is present in the string")
+else:
+    print("no vowel is present in the string")
