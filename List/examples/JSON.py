@@ -15,3 +15,7 @@ lst.pop(0)
 print('after pop(0):', lst)
 print('after pop(0) lst[1] =', lst[1])
 print('----------------------------------')
+
+print('12345678901234567890')
+print('{0:4d}, {0:5d}, {0:6d}'.format(123))
+
