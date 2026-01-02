@@ -47,3 +47,11 @@ class Employee:
         return f"Employee Name: {self.name}, ID: {self.eid}, Salary: {self.salary}"
     
 print((Employee("Alice", 101, 50000)))
+
+class Laptop:
+    def __init__(self, laptop):
+        self.laptop = laptop
+    def show_laptop(self):
+        return f"Laptop: {self.laptop}"
+l1 = Laptop("HP Pavilion")
+print(l1.show_laptop())
