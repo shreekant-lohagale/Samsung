@@ -25,8 +25,25 @@ class Student:
 
     def take_exam(self):
         print("student is taking exam")
-        
+
 student = Student()
 student.study()
 student.attend_class()
 student.take_exam()
+
+class Math:
+    @staticmethod
+    def add(a, b):
+        return a + b
+    
+print("Sum:", Math.add(5, 10))
+
+class Employee:
+    def __init__(self, name, eid, salary):
+        self.name = name
+        self.eid = eid
+        self.salary = salary
+    def __str__(self):
+        return f"Employee Name: {self.name}, ID: {self.eid}, Salary: {self.salary}"
+    
+print((Employee("Alice", 101, 50000)))
