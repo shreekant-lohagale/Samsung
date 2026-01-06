@@ -10,7 +10,7 @@ def partially_selection_sort(nlist):
         temp = nlist[fillslot]
         nlist[fillslot]=nlist[maxpos]
         nlist[maxpos]=temp
-        print(f"List after pass {len(nlist)-fillslot}: {nlist}")
+        print(f"List after pass: {nlist}")
 
 # Example usage
 l1 = [64, 25, 12, 22, 11]
