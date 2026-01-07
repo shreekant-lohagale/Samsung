@@ -2,10 +2,10 @@ def quick_sort_case_insensitive(strings):
     if len(strings) <= 1:
         return strings
     else:
-        pivot = strings[len(strings) // 2].lower()
-        left = [x for x in strings if x.lower() < pivot]
-        middle = [x for x in strings if x.lower() == pivot]
-        right = [x for x in strings if x.lower() > pivot]
+        pivot = strings[len(strings) // 2]
+        left = [x for x in strings if x.lower() < pivot.lower()]
+        middle = [x for x in strings if x.lower() == pivot.lower()]
+        right = [x for x in strings if x.lower() > pivot.lower()]
         return quick_sort_case_insensitive(left) + middle + quick_sort_case_insensitive(right)
 # Example usage:
 strings = ["banana", "Apple", "orange", "apple", "Banana"]
